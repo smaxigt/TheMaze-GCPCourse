@@ -2,6 +2,8 @@
 
 In this course, our primary emphasis is on mastering GCP (Google Cloud Platform) services to develop a fully functional application deployed on GCP. Throughout the course, we will explore various services offered by GCP and learn how to effectively utilize them, ensuring all aspects necessary for real-world project implementation.
 
+![OpenAnalytic Setup](https://github.com/smaxigt/TheMaze-GCPCourse/blob/main/Images/TheMaze.webp?raw=true)
+
 ## Step by Step
 
 In this course, we will guide you through the process of building both a simple backend and frontend solution, enabling you to create a complete pipeline from development to production environments.
