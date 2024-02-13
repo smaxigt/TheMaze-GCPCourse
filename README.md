@@ -16,7 +16,9 @@ The objective of this course is to develop a functional application deployed on 
 
 Ensuring a secure login interface for users is a priority. Moreover, we seek to establish an administrative portal enabling the admin (you) to manage user accounts, including deletion. Furthermore, we intend to incorporate an own created analytics tool to facilitate application analysis.
 
-"The final step of the course involves assessing your application's security posture against the Open Web Application Security Project (OWASP) Top 10 vulnerabilities. This evaluation is crucial for determining the effectiveness of your app's defenses against various threats.
+The final step of the course involves assessing your application's security posture against the Open Web Application Security Project (OWASP) Top 10 vulnerabilities. This evaluation is crucial for determining the effectiveness of your app's defenses against various threats.
+
+![GCP](https://github.com/smaxigt/TheMaze-GCPCourse/blob/main/Images/GCP.png?raw=true)
 
 # Creating a GCP account
 
