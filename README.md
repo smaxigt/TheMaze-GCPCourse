@@ -46,6 +46,8 @@ Enter a name for your development project, such as "The Maze" and click "Create.
 
 Source Repository is a tool for storing code, and in this course, we recommend experimenting with GCP Cloud Source Repositories to gain hands-on experience with storing code directly in GCP. However, if you prefer to use other platforms like GitHub, that's perfectly fine too. Just ensure that you're vigilant about not exposing any sensitive keys or information.
 
+![Source Repositories Alternatives ](https://github.com/smaxigt/TheMaze-GCPCourse/blob/main/Images/sourceRepo.png?raw=true)
+
 ### Create your GCP Repositories
 
 To initiate a new Source Repository, begin by navigating to the service's search function. Within the user interface, locate the "Add repository" option and click on it. From the subsequent menu, select "Create new repository" and proceed to assign a name to the repository.
