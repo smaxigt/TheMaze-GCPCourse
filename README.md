@@ -1,4 +1,8 @@
-# The Maze
+# Into the Labyrinth: Navigating the Maze
+
+In this course, our primary emphasis is on mastering GCP (Google Cloud Platform) services to develop a fully functional application deployed on GCP. Throughout the course, we will explore various services offered by GCP and learn how to effectively utilize them, ensuring all aspects necessary for real-world project implementation.
+
+![OpenAnalytic Setup](https://github.com/smaxigt/TheMaze-GCPCourse/blob/main/Images/TheMaze.webp?raw=true)
 
 1. [Into the Labyrinth: Navigating the Maze](#into-the-labyrinth-navigating-the-maze)
    - [Step by Step](#step-by-step)
@@ -29,12 +33,6 @@
    - [Chat GPT API (OpenAI)](#chat-gpt-api-openai)
 8. [Open Web Application Security Project (OWASP)](#open-web-application-security-project-owasp)
    - [OWASP top 10 security risk](#owasp-top-10-security-risk)
-
-# Into the Labyrinth: Navigating the Maze
-
-In this course, our primary emphasis is on mastering GCP (Google Cloud Platform) services to develop a fully functional application deployed on GCP. Throughout the course, we will explore various services offered by GCP and learn how to effectively utilize them, ensuring all aspects necessary for real-world project implementation.
-
-![OpenAnalytic Setup](https://github.com/smaxigt/TheMaze-GCPCourse/blob/main/Images/TheMaze.webp?raw=true)
 
 ## Step by Step
 
