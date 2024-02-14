@@ -26,11 +26,11 @@ Firstly, you'll need to create a GCP account, which requires a payment card. Don
 
 ## Download Google Cloud Command Line Interface
 
-Once you've set up your account, the next step is to download the Google Cloud Command Line Interface (CLI). This tool enables you to seamlessly access and push code to a GCP source repository. Simply follow the provided guide to install it on your local machine.
+Once you've set up your account, the next step is to download the Google Cloud Command Line Interface (CLI). This tool enables you to seamlessly access and push code to a GCP source repository. Simply follow the provided [guide](https://cloud.google.com/sdk/docs/install) to install it on your local machine.
 
 After downloading, you can type "gcloud init" in your terminal to log in to the cloud. Are you logged in? If yes, excellent! You now have a connection to Google Cloud Platform through your local machine!
 
-## Create a project
+# Create a project
 
 Let's create your project in Google Cloud Platform (GCP). We'll need to set up two separate projects: one for development and one for production. Let's begin by focusing on the development project.
 
@@ -94,6 +94,10 @@ Example in folder frontend/nginx
 
 # Cloud build
 
+Cloud Build is a fully managed continuous integration and continuous delivery (CI/CD) platform that automates the process of building, testing, and deploying applications on Google Cloud. It allows developers to focus on writing code while Cloud Build handles the infrastructure and workflow management, enabling faster and more reliable software delivery.
+
+## How to add a Trigger
+
 Let's navigate to Cloud Build to set up a new trigger specifically for our development environment. First, click on "Triggers," then proceed to select the option to "Create Trigger." Assign a name to the trigger; for instance, we'll label it as "dev-frontend," and configure it to activate upon pushing to a branch.
 
 Choose the appropriate repository and specify the Cloud Build configuration file (either YAML or JSON), then finalize the process by clicking "Create."
@@ -123,11 +127,13 @@ You can now incorporate the following code snippet into your project to retrieve
 **Run it locally and see if the code is working.**
 
 Now, let's navigate to the Google Cloud Platform (GCP) UI and locate the Cloud Build trigger to add a variable. Follow these steps:
-Navigate to the Cloud Build section. You can find it in the left-hand navigation menu under "Build".
-In the Cloud Build dashboard, locate the trigger you want to edit and click on it.
-This will open the details for the trigger. Look for an "Edit" button or similar option, and click on it.
-In the trigger settings, find the section where you can add variables or environment variables.
-Click on the option to add a new variable.
+
+1. Navigate to the Cloud Build section.
+2. You can find it in the left-hand navigation menu under "Build".
+3. In the Cloud Build dashboard, locate the trigger you want to edit and click on it.
+4. This will open the details for the trigger. Look for an "Edit" button or similar option, and click on it.
+5. In the trigger settings, find the section where you can add variables or environment variables.
+6. Click on the option to add a new variable.
 
 Enter the variable name. In this case, it would be _REACT_APP_BACKEND_URL but be sure to add a _ in t\*\*he beginning, as this is default for GCP.
 Provide the value for this variable. This could be the URL of your backend Cloud Run instance.
