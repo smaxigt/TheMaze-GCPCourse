@@ -138,7 +138,7 @@ Now, let's navigate to the Google Cloud Platform (GCP) UI and locate the Cloud B
 5. In the trigger settings, find the section where you can add variables or environment variables.
 6. Click on the option to add a new variable.
 
-Enter the variable name. In this case, it would be _REACT_APP_BACKEND_URL but be sure to add a _ in t\*\*he beginning, as this is default for GCP.
+Enter the variable name. In this case, it would be **REACT_APP_BACKEND_URL** but be sure to add a in the beginning, as this is default for GCP.
 Provide the value for this variable. This could be the URL of your backend Cloud Run instance.
 Once you've added the variable and its value, save your changes.
 
@@ -168,7 +168,7 @@ However, for a more complex service like image processing, where you might need 
 
 Let's embark on creating a Cloud Function. To streamline the process, we'll initiate a new Git repository named "cloudF". Our primary objective is to develop a simple Cloud Function that responds with "Hello, World". Setting up this function can be intricate, so we'll start there. Once you've successfully implemented the Cloud Function and grasp its functionality, you can integrate it into your application as needed.
 
-Within the "cloudF" repository, we'll require a "cloudbuild.yaml" file and a folder containing the function. Notably, we can omit the Dockerfile for the Cloud Function. Feel free to try to create the structure of the "cloudbuild.yaml" file by urself or googling. if further assistance is needed, reference the "cloud-functions" folder in the GitHub repository.
+Within the "cloudF" repository, we'll require a "cloudbuild.yaml" file and a folder containing the function. Notably, we can omit the Dockerfile for the Cloud Function. Feel free to try to create the structure of the "cloudbuild.yaml" file by urself or googling. if further assistance is needed, reference the "cloudF" folder in the GitHub repository.
 
 ### Cloud Functions API
 
