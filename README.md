@@ -152,9 +152,48 @@ What have we accomplished here? We've integrated a variable into our trigger and
 
 With this configuration, we can effortlessly modify the trigger variable in the build for production by specifying a new URL, facilitating a streamlined pipeline setup.
 
+# Cloud Functions
+
+Cloud functions are event-driven, serverless functions that allow developers to execute code in response to various triggers without worrying about managing servers. They offer scalability, flexibility, and cost-efficiency, enabling rapid development and deployment of lightweight, microservice-based applications.
+
+## The different between Cloud Function / Cloud Run
+
+Cloud Functions are event-driven, serverless functions ideal for quick response to events like HTTP requests or database changes. Cloud Run allows running containerized applications, offering more flexibility in language choice and execution environment.
+
+Let's say you're building a microservice architecture for an e-commerce website. For the product recommendation service, which needs to respond rapidly to user activity such as clicks and purchases, Cloud Functions would be an excellent choice. Its event-driven nature fits perfectly for this real-time, event-triggered workload.
+
+However, for a more complex service like image processing, where you might need specific dependencies or libraries not supported directly by Cloud Functions, Cloud Run would be a better option. You could containerize your image processing application with all its dependencies and deploy it on Cloud Run, gaining flexibility and control over the execution environment.
+
+## Lets Create a Cloud Function
+
+Let's embark on creating a Cloud Function. To streamline the process, we'll initiate a new Git repository named "cloud-functions". Our primary objective is to develop a simple Cloud Function that responds with "Hello, World". Setting up this function can be intricate, so we'll start there. Once you've successfully implemented the Cloud Function and grasp its functionality, you can integrate it into your application as needed.
+
+Within the "cloud-functions" repository, we'll require a "cloudbuild.yaml" file and a folder containing the function. Notably, we can omit the Dockerfile for the Cloud Function. Feel free to try to create the structure of the "cloudbuild.yaml" file by urself or googling. if further assistance is needed, reference the "cloud-functions" folder in the GitHub repository.
+
+### Cloud Functions API
+
+To facilitate this setup, you'll need to activate the Cloud Functions API. Navigate to the Cloud Functions API and enable the service. Additionally, ensure that Cloud Functions are enabled within the Cloud Build settings. This can be accomplished by accessing the settings and enabling Cloud Functions.
+
+## Setup Automatic Pipeline
+
+To set up a build trigger on Cloud Build, the process remains unchanged. We create a trigger and then link it to our new Git repository. For this scenario, I would suggest altering the trigger from "Push to branch" to "Manually invoke." This adjustment allows for more control, especially if you plan to add multiple Cloud Function builds, as the building process can be time-consuming.
+
+In this example, we're utilizing an open HTTPS trigger with the "--allow-unauthenticated" flag, allowing anyone on the internet to access this cloud function. While it's possible to configure it to only permit specific services to access the function, for the purpose of this demonstration, the current setup suffices.
+
+**Let's proceed with this setup and observe if our build successfully completes.**
+
+## Get Cloud Function URL
+
+Great news! It worked! Congratulations on creating your first cloud function. Now, let's proceed to grab the URL as follows:
+
+1. Go to Cloud Functions.
+2. Go to your created cloud function.
+3. Go to Triggers.
+4. Get url now open created Cloud Function!
+
 # Time to build some cool stuff!
 
-Now that both the backend and frontend are live on the internet, it's time to elevate our application with thrilling features. In this step, the choice is yours regarding what you wish to construct and utilize for services. The following text provides examples of what you can implement.
+Now that both the backend,frontend and your cloud function are live on the internet, it's time to elevate our application with thrilling features. In this step, the choice is yours regarding what you wish to construct and utilize for services. The following text provides examples of what you can implement.
 
 ## Firebase Auth
 
