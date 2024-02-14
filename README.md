@@ -69,27 +69,27 @@ npx create-react-app NameOnProject
 
 This will generate a new React app with the specified name. Now copy the folder files and place it in the root of the repo, remove the folder NameOnProject after.
 Now that you have your React app set up, the next step is to set up a pipeline for automatic build using Google Cloud Platform (GCP) service called Cloud Build.
-To do this, your Git repository will need to add three files: one Dockerfile, cloudbuild.yaml and Ngnix. Dockerfile and cloudbuild
+To do this, your Git repository will need to add three files: one Dockerfile, cloudbuild.yaml and Ngnix.
 
 ## Dockerfile
 
 A Dockerfile is needed to build a Cloud Run service because Cloud Run requires containerized applications to run. By defining a Dockerfile, developers can specify the environment and dependencies necessary for their application to run successfully within a container, which can then be deployed and managed on Cloud Run's serverless platform.
 
-Example in folder frontend/backend
+[Example in folder frontend](/frontend/Dockerfile)
 [Read more about Docker.](https://docs.docker.com/engine/reference/builder/)
 
 ## Cloudbuild.yaml
 
 Cloudbuild.yaml is a configuration file used with Cloud Build, specifying the steps and actions needed to build, test, and deploy software artifacts within Google Cloud Platform. It defines the build process in a declarative format, allowing for automation and reproducibility of builds.
 
-Example in folder frontend/backend
+[Example in folder frontend](/frontend/cloudbuild.yaml)
 [Read more about Cloudbuild.yaml](https://cloud.google.com/build/docs/configuring-builds/create-basic-configuration)
 
 ## Nginx
 
 Nginx is a high-performance web server known for its scalability and efficiency in handling concurrent connections. It also functions as a reverse proxy server, efficiently directing incoming web traffic to backend servers, making it a popular choice for serving web content and managing network traffic.
 
-Example in folder frontend/nginx
+[Example in folder frontend/nginx](/frontend/nginx/nginx.conf)
 [Read more about Nginx ](https://www.nginx.com/resources/glossary/nginx/)
 
 # Cloud build
