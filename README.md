@@ -4,6 +4,8 @@ In this course, our primary emphasis is on mastering GCP (Google Cloud Platform)
 
 ![OpenAnalytic Setup](https://github.com/smaxigt/TheMaze-GCPCourse/blob/main/Images/TheMaze.webp?raw=true)
 
+# Table of Contents
+
 1. [Into the Labyrinth: Navigating the Maze](#into-the-labyrinth-navigating-the-maze)
    - [Step by Step](#step-by-step)
    - [What is the Goal?](#what-is-the-goal)
