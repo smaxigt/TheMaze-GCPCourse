@@ -37,10 +37,10 @@ Let's create your project in Google Cloud Platform (GCP). We'll need to set up t
 To do this, I recommend using the GCP UI for a smoother experience.
 Here are the steps to create the development project in GCP:
 
-Log in to your Google Cloud Console at https://console.cloud.google.com/.
-Once logged in, navigate to the "Select a project" dropdown menu at the top of the page.
-Click on the dropdown menu and select "New Project."
-Enter a name for your development project, such as "The Maze" and click "Create."
+1. Log in to your Google Cloud Console at https://console.cloud.google.com/.
+2. Once logged in, navigate to the "Select a project" dropdown menu at the top of the page.
+3. Click on the dropdown menu and select "New Project."
+4. Enter a name for your development project, such as "The Maze" and click "Create."
 
 ## Choosing Source Repositories
 
@@ -166,9 +166,9 @@ However, for a more complex service like image processing, where you might need 
 
 ## Lets Create a Cloud Function
 
-Let's embark on creating a Cloud Function. To streamline the process, we'll initiate a new Git repository named "cloud-functions". Our primary objective is to develop a simple Cloud Function that responds with "Hello, World". Setting up this function can be intricate, so we'll start there. Once you've successfully implemented the Cloud Function and grasp its functionality, you can integrate it into your application as needed.
+Let's embark on creating a Cloud Function. To streamline the process, we'll initiate a new Git repository named "cloudF". Our primary objective is to develop a simple Cloud Function that responds with "Hello, World". Setting up this function can be intricate, so we'll start there. Once you've successfully implemented the Cloud Function and grasp its functionality, you can integrate it into your application as needed.
 
-Within the "cloud-functions" repository, we'll require a "cloudbuild.yaml" file and a folder containing the function. Notably, we can omit the Dockerfile for the Cloud Function. Feel free to try to create the structure of the "cloudbuild.yaml" file by urself or googling. if further assistance is needed, reference the "cloud-functions" folder in the GitHub repository.
+Within the "cloudF" repository, we'll require a "cloudbuild.yaml" file and a folder containing the function. Notably, we can omit the Dockerfile for the Cloud Function. Feel free to try to create the structure of the "cloudbuild.yaml" file by urself or googling. if further assistance is needed, reference the "cloud-functions" folder in the GitHub repository.
 
 ### Cloud Functions API
 
@@ -186,10 +186,10 @@ In this example, we're utilizing an open HTTPS trigger with the "--allow-unauthe
 
 Great news! It worked! Congratulations on creating your first cloud function. Now, let's proceed to grab the URL as follows:
 
-1. Go to Cloud Functions.
-2. Go to your created cloud function.
-3. Go to Triggers.
-4. Get url now open created Cloud Function!
+1. Navigate to Cloud Functions in your cloud platform.
+2. Locate and select the cloud function you've created.
+3. Access the Triggers section.
+4. Retrieve the URL to open your newly created Cloud Function!
 
 # Time to build some cool stuff!
 
