@@ -1,4 +1,4 @@
-# Table of Contents
+# The Maze
 
 1. [Into the Labyrinth: Navigating the Maze](#into-the-labyrinth-navigating-the-maze)
    - [Step by Step](#step-by-step)
