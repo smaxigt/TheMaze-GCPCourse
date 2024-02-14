@@ -1,3 +1,14 @@
+# Table of Contents
+
+1. [Into the Labyrinth: Navigating the Maze](#into-the-labyrinth-navigating-the-maze)
+2. [Creating a GCP account](#creating-a-gcp-account)
+3. [Create a project](#create-a-project)
+4. [Cloud build](#cloud-build)
+5. [Cloud Run](#cloud-run)
+6. [Cloud Functions](#cloud-functions)
+7. [Time to build some cool stuff!](#time-to-build-some-cool-stuff)
+8. [Open Web Application Security Project (OWASP)](#open-web-application-security-project-owasp)
+
 # Into the Labyrinth: Navigating the Maze
 
 In this course, our primary emphasis is on mastering GCP (Google Cloud Platform) services to develop a fully functional application deployed on GCP. Throughout the course, we will explore various services offered by GCP and learn how to effectively utilize them, ensuring all aspects necessary for real-world project implementation.
