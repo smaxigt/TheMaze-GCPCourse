@@ -6,7 +6,7 @@ In this course, our primary emphasis is on mastering GCP (Google Cloud Platform)
 
 ## Step by Step
 
-In this course, we will guide you through the process of building both a simple backend and frontend solution, enabling you to create a complete pipeline from development to production environments.
+In this course, we will guide you through the process of building both a simple backend,frontend and a cloud function solution, enabling you to create a complete pipeline from development to production environments.
 
 The examples presented in this course will utilize Node.js for the backend and React for the frontend. However, you have the flexibility to choose your preferred code stack. If you're new to this, I recommend sticking with the suggested code stack.
 
@@ -233,6 +233,7 @@ Firebase is a comprehensive NoSQL database platform offered by Google for develo
 Why not create your own specialized chatbot using GPT, tailored to specific tasks? To achieve this, you'll need to register an account on openai.com and set up an API key.
 
 [Read more about OpenAI KEY](https://www.maisieai.com/help/how-to-get-an-openai-api-key-for-chatgpt)
+
 [Read more about OpenAI Implementation](https://firebase.google.com/docs/admin/setup)
 
 # Open Web Application Security Project ( OWASP )
