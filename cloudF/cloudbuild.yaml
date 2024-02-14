@@ -1,0 +1,20 @@
+steps:
+  - name: "gcr.io/cloud-builders/gcloud"
+    args:
+      [
+        "functions",
+        "deploy",
+        "HelloWorld",
+        "--region",
+        "europe-west1",
+        "--runtime",
+        "nodejs18",
+        "--trigger-http",
+        "--allow-unauthenticated",
+        "--project",
+        "$PROJECT_ID",
+      ]
+    dir: "./HelloWorld"
+
+options:
+  logging: CLOUD_LOGGING_ONLY
